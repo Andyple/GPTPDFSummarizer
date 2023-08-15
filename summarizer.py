@@ -6,7 +6,7 @@ import pdfminer
 from pdfminer.high_level import extract_text
 
 # Set the OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 def finalSummary_gpt(text):
     completions = openai.ChatCompletion.create(
